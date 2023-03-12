@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{ 
+    --cor-primaria:#86E7D6;  
+    --cor-secundaria: #82D9C9;
+    --cor-terciaria:#5893D5;
+    --cor-rosa:#EAC7C7;
+}
+
+body{
+    height: 100vh;
+    background-image: radial-gradient( circle farthest-corner at 92.3% 71.5%,  rgba(83,138,214,1) 0%, rgba(134,231,214,1) 90% );
+}
+
+.foto_cacheada{
+    border-radius: 50%;
+    height: 300px ;
+    width: 300px;
+    border: 0%;
+    padding-left: 10%;
+    padding-right: 5%;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+
+}
+
+.titulo{
+    font-size:60px;
+    font-family: 'candara';
+    color:white;
+    text-shadow: blueviolet 0.1em 0.1em 0.2em;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+
+}
+.texto{
+    font-size:30px;
+    font-family: 'candara';
+    color:white;
+    text-shadow: blueviolet 0.1em 0.1em 0.2em;
+    position: absolute;
+    top: 40%;
+    left: 70%;
+
+}
+
+.redes_sociais{
+    font-size:18px;
+    font-family: 'candara';
+    color:white;
+    text-shadow: blueviolet 0.1em 0.1em 0.2em;
+    position: absolute;
+    top: 55%;
+    left: 55%;
+}
+
+.facebook{
+    position: absolute;
+    top: 55%;
+    left: 75%;
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transform: all 0.3s;
+
+}
+.facebook:hover{
+    -moz-transition: scale(1.3);
+    -webkit-transition: scale(1.1);
+    transform: scale(1.1);
+}
+.instagran{
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transform: all 0.3s;
+
+}
+.instagran:hover{
+    -moz-transition: scale(1.3);
+    -webkit-transition: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+
+.whatsapp{
+    position: absolute;
+    top: 55%;
+    left: 85%;
+    overflow: hidden;
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transform: all 0.3s;
+}
+
+.whatsapp:hover{
+    -moz-transition: scale(1.3);
+    -webkit-transition: scale(1.1);
+    transform: scale(1.1);
+
+}
+
+.desconto{
+    width: 17;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'candara' ;
+    font-weight: 400;
+    color: white;
+    text-shadow: -1px -1px white, 1px 1px var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    border-color:white;
+    position: absolute;
+    top:0%;
+    left: 75%;
+    overflow: hidden;
+    max-width: 1000%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transform: all 0.3s;
+
+}
+
+.desconto:hover{
+    -moz-transition: scale(1.3);
+    -webkit-transition: scale(1.1);
+    transform: scale(1.1);
+}    
+
+
+.custom-shape-divider-bottom-1677009500 { position: absolute; bottom: 0; left: 0; width: 100%;
+    overflow: hidden; line-height: 0;
+   
+   
+   
+   
+}
+    
+   
+.custom-shape-divider-bottom-1677009500 svg {
+    position: relative; display: block; width: calc(258% + 1.3px);
+    height: 131px;
+   
+   
+} 
+   
+.custom-shape-divider-bottom-1677009500 .shape-fill {
+    fill: #4686DC;
+} 
